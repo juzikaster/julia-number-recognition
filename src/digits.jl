@@ -147,7 +147,6 @@ function predict_number(image_path)
         @info "Model not found, Error..."
     end
 
-\
     image = load(image_path)                                    # load image
     resize = imresize(image, (28, 28))                          # resize Image
     img_grayscale = Gray.(resize)                               # Conver to grayscale
