@@ -2,3 +2,9 @@
 
 
 ### You can't run this script if Python and Tkinter isn't installed!
+---
+
+to run:
+```bash
+julia src/digits.js
+```
